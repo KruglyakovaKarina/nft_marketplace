@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import Banner from '../components/Banner';
 import Trending from '../components/Trending';
+import TopCreators from '../components/TopCreators';
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
       <Navbar />
       <Banner />
       <Trending />
+      <TopCreators />
     </div>
   );
 };
