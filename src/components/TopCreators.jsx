@@ -102,7 +102,7 @@ const TopCreators = () => {
             whileHover={{ scale: 0.95 }}
             whileTap={{ scale: 1.0 }}
             key={index}
-            className='relative bg-graySecond flex flex-col align-middle items-center  rounded-2xl'
+            className='relative bg-graySecond flex flex-col align-middle items-center rounded-2xl cursor-pointer'
             onClick={() => {
               navigate('/artist-page');
             }}

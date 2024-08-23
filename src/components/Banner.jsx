@@ -45,11 +45,13 @@ const Banner = () => {
             </div>
           </div>
         </div>
-        <div
+        <motion.div
+          whileHover={{ scale: 0.9 }}
+          whileTap={{ scale: 1.0 }}
           onClick={() => {
             navigate('/artist-page');
           }}
-          className='md:w-[50%] lg:w-[50%] sm:w-[80%] w-[90%] bg-graySecond rounded-2xl'
+          className='cursor-pointer md:w-[50%] lg:w-[50%] sm:w-[80%] w-[90%] bg-graySecond rounded-2xl'
         >
           <img src={bannerImg} alt='' />
           <div className='mx-5 my-4 space-y-3'>
@@ -59,7 +61,7 @@ const Banner = () => {
               <p>Animakid</p>
             </div>
           </div>
-        </div>
+        </motion.div>
       </div>
     </div>
   );

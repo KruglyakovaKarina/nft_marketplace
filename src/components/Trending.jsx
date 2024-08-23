@@ -18,10 +18,10 @@ const Trending = () => {
   return (
     <div className='max-w-5xl mx-auto lg:py-20 py-10 lg:px-5 sm:px-36 md:px-20 px-12 space-y-10'>
       <div>
-        <h1 className='lg:text-3xl md:text-2xl text-lg font-semibold'>
+        <h1 className='lg:text-3xl text-2xl font-semibold'>
           Trending Collection
         </h1>
-        <p className='mt-3 lg:text-lg'>
+        <p className='mt-3 lg:text-xl'>
           Checkout our weekly updated trending collection.
         </p>
       </div>
