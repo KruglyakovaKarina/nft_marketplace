@@ -38,7 +38,7 @@ const DiscoverMore = () => {
     <div className='max-w-5xl mx-auto lg:py-20 py-10 lg:px-5 sm:px-36 md:px-20 px-12'>
       <div className='flex flex-row justify-between items-end'>
         <div className='mr-5'>
-          <h1 className='lg:text-3xl text-2xl font-semibold cursor-pointer lg:max-w-max md:max-w-max max-w-[150px]'>
+          <h1 className='lg:text-3xl text-2xl font-semibold lg:max-w-max md:max-w-max max-w-[150px]'>
             Discover More NFTs
           </h1>
           <p className='mt-3 lg:text-xl lg:max-w-max md:max-w-max max-w-[150px]'>
