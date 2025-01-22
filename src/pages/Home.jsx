@@ -6,6 +6,7 @@ import TopCreators from '../components/TopCreators';
 import Categories from '../components/Categories';
 import Mushroom from '../components/Mushroom';
 import DiscoverMore from '../components/DiscoverMore';
+import HowItWorks from '../components/HowItWorks';
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <TopCreators />
       <DiscoverMore />
       <Mushroom />
+      <HowItWorks />
     </div>
   );
 };
