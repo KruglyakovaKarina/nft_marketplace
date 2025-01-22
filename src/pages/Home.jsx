@@ -7,6 +7,7 @@ import Categories from '../components/Categories';
 import Mushroom from '../components/Mushroom';
 import DiscoverMore from '../components/DiscoverMore';
 import HowItWorks from '../components/HowItWorks';
+import Footer from '../components/Footer';
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
       <DiscoverMore />
       <Mushroom />
       <HowItWorks />
+      <Footer />
     </div>
   );
 };
