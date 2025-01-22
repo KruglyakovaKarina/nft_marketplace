@@ -5,6 +5,7 @@ import Trending from '../components/Trending';
 import TopCreators from '../components/TopCreators';
 import Categories from '../components/Categories';
 import Mushroom from '../components/Mushroom';
+import DiscoverMore from '../components/DiscoverMore';
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <Trending />
       <Categories />
       <TopCreators />
+      <DiscoverMore />
       <Mushroom />
     </div>
   );
