@@ -10,7 +10,7 @@ const Footer = () => {
   const navigate = useNavigate();
 
   return (
-    <footer>
+    <footer className=''>
       <div className='bg-graySecond'>
         <div className='max-w-5xl mx-auto lg:px-5 sm:px-36 md:px-20 px-12 py-10'>
           <div className='grid lg:grid-cols-3 lg:grid-rows-1 grid-rows-3 lg:gap-0'>

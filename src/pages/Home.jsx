@@ -1,12 +1,12 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
-import Banner from '../components/Banner';
-import Trending from '../components/Trending';
-import TopCreators from '../components/TopCreators';
-import Categories from '../components/Categories';
-import Mushroom from '../components/Mushroom';
-import DiscoverMore from '../components/DiscoverMore';
-import HowItWorks from '../components/HowItWorks';
+import Banner from '../components/home/Banner';
+import Trending from '../components/home/Trending';
+import TopCreators from '../components/home/TopCreators';
+import Categories from '../components/home/Categories';
+import Mushroom from '../components/home/Mushroom';
+import DiscoverMore from '../components/home/DiscoverMore';
+import HowItWorks from '../components/home/HowItWorks';
 import Footer from '../components/Footer';
 
 const Home = () => {

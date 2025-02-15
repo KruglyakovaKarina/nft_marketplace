@@ -2,8 +2,8 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { PiRocketLaunchLight } from 'react-icons/pi';
 import { useNavigate } from 'react-router-dom';
-import bannerImg from '../assets/bannerImage.png';
-import avatarImg from '../assets/avatarPlaceholder.png';
+import bannerImg from '../../assets/bannerImage.png';
+import avatarImg from '../../assets/avatarPlaceholder.png';
 
 const Banner = () => {
   const navigate = useNavigate();

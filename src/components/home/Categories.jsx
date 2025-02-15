@@ -1,22 +1,22 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import art from '../assets/Art.png';
-import сollectibles from '../assets/Collectibles.png';
-import music from '../assets/Music.png';
-import photography from '../assets/Photography.png';
-import video from '../assets/Video.png';
-import utility from '../assets/Utility.png';
-import sport from '../assets/Sport.png';
-import worlds from '../assets/VirtualWorlds.png';
-import brush from '../assets/Brush.svg';
-import palette from '../assets/Palette.svg';
-import musicIcon from '../assets/Music.svg';
-import camera from '../assets/Camera.svg';
-import videoIcon from '../assets/Video.svg';
-import magic from '../assets/Magic.svg';
-import basketball from '../assets/Basketball.svg';
-import planet from '../assets/Planet.svg';
+import art from '../../assets/Art.png';
+import сollectibles from '../../assets/Collectibles.png';
+import music from '../../assets/Music.png';
+import photography from '../../assets/Photography.png';
+import video from '../../assets/Video.png';
+import utility from '../../assets/Utility.png';
+import sport from '../../assets/Sport.png';
+import worlds from '../../assets/VirtualWorlds.png';
+import brush from '../../assets/Brush.svg';
+import palette from '../../assets/Palette.svg';
+import musicIcon from '../../assets/Music.svg';
+import camera from '../../assets/Camera.svg';
+import videoIcon from '../../assets/Video.svg';
+import magic from '../../assets/Magic.svg';
+import basketball from '../../assets/Basketball.svg';
+import planet from '../../assets/Planet.svg';
 
 const Categories = () => {
   const navigate = useNavigate();
@@ -79,6 +79,7 @@ const Categories = () => {
               onClick={() => {
                 navigate('/marketplace');
               }}
+              key={index}
             >
               <img
                 src={category.icon}

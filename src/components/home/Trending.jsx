@@ -1,14 +1,14 @@
 import React from 'react';
-import avatarImg from '../assets/avatarPlaceholder.png';
-import animals1 from '../assets/Animals1.png';
-import animals2 from '../assets/Animals2.png';
-import animals3 from '../assets/Animals3.png';
-import mushrooms1 from '../assets/Mushrooms1.png';
-import mushrooms2 from '../assets/Mushrooms2.png';
-import mushrooms3 from '../assets/Mushrooms3.png';
-import machines1 from '../assets/Machines1.png';
-import machines2 from '../assets/Machines2.png';
-import machines3 from '../assets/Machines3.png';
+import avatarImg from '../../assets/avatarPlaceholder.png';
+import animals1 from '../../assets/Animals1.png';
+import animals2 from '../../assets/Animals2.png';
+import animals3 from '../../assets/Animals3.png';
+import mushrooms1 from '../../assets/Mushrooms1.png';
+import mushrooms2 from '../../assets/Mushrooms2.png';
+import mushrooms3 from '../../assets/Mushrooms3.png';
+import machines1 from '../../assets/Machines1.png';
+import machines2 from '../../assets/Machines2.png';
+import machines3 from '../../assets/Machines3.png';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 

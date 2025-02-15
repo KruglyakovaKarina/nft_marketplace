@@ -1,8 +1,8 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import avatarImg from '../assets/avatarPlaceholder.png';
+import avatarImg from '../../assets/avatarPlaceholder.png';
 import { motion } from 'framer-motion';
-import eye from '../assets/Eye.svg';
+import eye from '../../assets/Eye.svg';
 
 const TopCreators = () => {
   const navigate = useNavigate();

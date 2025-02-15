@@ -1,8 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import mushroom from '../assets/MagicMushrooms.png';
-import avatar from '../assets/avatarPlaceholder.png';
-import eye from '../assets/Eye.svg';
+import mushroom from '../../assets/MagicMushrooms.png';
+import avatar from '../../assets/avatarPlaceholder.png';
+import eye from '../../assets/Eye.svg';
 import { useNavigate } from 'react-router-dom';
 
 const Mushroom = () => {

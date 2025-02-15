@@ -1,11 +1,11 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import eye from '../assets/Eye.svg';
+import eye from '../../assets/Eye.svg';
 import { motion } from 'framer-motion';
-import avatarImg from '../assets/avatarPlaceholder.png';
-import nft1 from '../assets/NFT1.png';
-import nft2 from '../assets/NFT2.png';
-import nft3 from '../assets/NFT3.png';
+import avatarImg from '../../assets/avatarPlaceholder.png';
+import nft1 from '../../assets/NFT1.png';
+import nft2 from '../../assets/NFT2.png';
+import nft3 from '../../assets/NFT3.png';
 
 const DiscoverMore = () => {
   const navigate = useNavigate();
@@ -60,6 +60,7 @@ const DiscoverMore = () => {
       <div className='mt-10 grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-3 sm:gap-5 lg:gap-8'>
         {nfts.map((nft, index) => (
           <motion.div
+            key={index}
             whileHover={{ scale: 0.9 }}
             whileTap={{ scale: 1.0 }}
             onClick={() => {

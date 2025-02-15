@@ -16,7 +16,7 @@ const Navbar = () => {
   const navigate = useNavigate();
 
   return (
-    <div className=''>
+    <div className='bg-gray'>
       <div className='m-auto flex items-center'>
         <nav className='flex items-center text-lg font-semibold my-5 mx-10 justify-between w-[100vw]'>
           <a
@@ -27,7 +27,7 @@ const Navbar = () => {
             <span>NFT Marketplace</span>
           </a>
 
-          <ul className='md:flex space-x-12 hidden'>
+          <ul className='md:flex space-x-12 hidden items-center'>
             <li>
               <motion.button
                 whileHover={{ scale: 0.9 }}
