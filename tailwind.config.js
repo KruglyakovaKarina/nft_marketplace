@@ -9,6 +9,7 @@ module.exports = {
         graySecond: '#3B3B3B',
         grayThird: '#858584',
         grayFourth: '#CCCCCC',
+        green: '#00AC4F',
       },
     },
   },
