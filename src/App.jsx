@@ -6,11 +6,13 @@ import Rankings from './pages/Rankings';
 import Marketplace from './pages/Marketplace';
 import CreateAccount from './pages/CreateAccount';
 import ConnectWallet from './pages/ConnectWallet';
+import ScrollToTop from './ScrollToTop';
 
 function App() {
   return (
     <div>
       <BrowserRouter>
+        <ScrollToTop />
         <Routes>
           <Route path='/' element={<Home />}></Route>
           <Route path='/create-account' element={<CreateAccount />}></Route>
