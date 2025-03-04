@@ -7,6 +7,7 @@ import Marketplace from './pages/Marketplace';
 import CreateAccount from './pages/CreateAccount';
 import ConnectWallet from './pages/ConnectWallet';
 import ScrollToTop from './ScrollToTop';
+import NFTPage from './pages/NFTPage';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path='/artist-page' element={<Artist />}></Route>
           <Route path='/rankings' element={<Rankings />}></Route>
           <Route path='/marketplace' element={<Marketplace />}></Route>
+          <Route path='/nft-page' element={<NFTPage />}></Route>
         </Routes>
       </BrowserRouter>
     </div>
